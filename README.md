@@ -2,7 +2,10 @@ Group Members: Shanice M, Crystal Bafro, Elijah Harnadek
 
 App Name: ConjuQuiz
 
-Link to Screen Inventory:
-[Screen Inventory](docs/screen_inventory.md)
-Link to WireFrames: 
-[Design Tokens](docs/design_tokens.md)
+Screen Inventory:
+
+<img width="1045" height="418" alt="image" src="https://github.com/user-attachments/assets/3befd572-f56a-45fe-9f89-a5f71cbae17b" />
+
+
+Wireframes:
+
