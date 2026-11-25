@@ -9,8 +9,10 @@ import androidx.room3.PrimaryKey
 //
 @Entity(tableName = "mistakes",
 foreignKeys = [
-    ForeignKey(entity = QuizResult::class, parentColumns = ["id"], childColumns = ["resultId"], onDelete = ForeignKey.CASCADE)],//automatic delete
-indices = [Index("resultId")]
+    ForeignKey(entity = QuizResult::class, parentColumns = ["id"],//parent  id & table
+        childColumns = ["resultId"],// the foreign key col name
+        onDelete = ForeignKey.CASCADE)],//automatic delete when parent is
+indices = [Index("resultId")] //basis search point  for finding
 )
 data class Mistake(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,

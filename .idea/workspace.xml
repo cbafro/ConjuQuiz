@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9428dfe5-e31f-4828-98b5-49d35031d3b4" name="Changes" comment="added entities &amp;">
+    <list default="true" id="9428dfe5-e31f-4828-98b5-49d35031d3b4" name="Changes" comment="set up the appDB">
       <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/ConjuDB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/QuizResultwithMistakes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/reps/ResultsRep.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/reps/RoomResultsRep.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/daos/QuizResultDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/daos/QuizResultDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/ConjuDB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/ConjuDB.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/MistakesModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/MistakesModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/QuizResultwithMistakes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/QuizResultwithMistakes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Interface" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -157,7 +161,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added entities &amp;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added entities &amp;" />
+    <MESSAGE value="set up the appDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up the appDB" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

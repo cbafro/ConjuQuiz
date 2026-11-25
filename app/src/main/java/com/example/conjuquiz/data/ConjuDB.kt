@@ -13,7 +13,7 @@ import kotlinx.coroutines.Dispatchers
 
 @Database(entities = [QuizResult::class, Mistake::class], version = 1, exportSchema = true)
 abstract class ConjuDB : RoomDatabase() {
-    abstract fun quizResultDao(): QuizResultDAO
+    abstract fun quizResultDao(): QuizResultDAO //for us to access the DAO
 
 
 

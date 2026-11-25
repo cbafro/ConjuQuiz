@@ -14,6 +14,9 @@ interface QuizResultDAO {
     @Query("SELECT * FROM quiz_results ORDER BY timestamp DESC")
     fun observeAllResults(): Flow<List<QuizResultWithMistakes>>
 
+    @Query("SELECT * FROM quiz_results WHERE id = :id")
+    fun observeResultById(id: Long): Flow<QuizResultWithMistakes?>
+
     @Insert
     suspend fun insertResult(result: QuizResult): Long
 
