@@ -4,66 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9428dfe5-e31f-4828-98b5-49d35031d3b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/daos/QuizResultDAO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/MistakesModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/QuizResultModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adr1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/androidTest/java/com/example/conjuquiz/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/home/HomeScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/navigation/AppNavigation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/navigation/Routes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/quiz/QuizScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/results/ResultsScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/saved/SavedAnswersScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/settings/SettingsScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/ui/components/StateViews.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/ui/theme/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/ui/theme/Theme.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/ui/theme/Type.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/java/com/example/conjuquiz/verbs/VerbsScreen.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/keepRules/rules.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/app/src/test/java/com/example/conjuquiz/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConjuQuiz2/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/conjuquiz/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/conjuquiz/ui/theme/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/conjuquiz/ui/theme/Theme.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/example/conjuquiz/ui/theme/Type.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userflow.md" beforeDir="false" />
+    <list default="true" id="9428dfe5-e31f-4828-98b5-49d35031d3b4" name="Changes" comment="added entities &amp;">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/data/ConjuDB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/entities/QuizResultwithMistakes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/daos/QuizResultDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/conjuquiz/daos/QuizResultDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -121,6 +68,7 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -206,5 +154,25 @@
       <updated>1795562774056</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added entities &amp;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added entities &amp;" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.conjuquiz">
+          <value>
+            <CheckInfo lastCheckTimestamp="1795574166283" />
+          </value>
+        </entry>
+        <entry key="com.example.conjuquiz.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1795574166284" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
