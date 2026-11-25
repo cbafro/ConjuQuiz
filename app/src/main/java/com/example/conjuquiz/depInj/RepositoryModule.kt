@@ -14,8 +14,10 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 abstract class RepositoryModule {
 
+
     // @Binds => When a VM asks for a ResultsRepository give it a RoomResultsRepository."
     @Binds
     @Singleton
+
     abstract fun bindResultsRepository(impl: RoomResultsRep): ResultsRep
 }
